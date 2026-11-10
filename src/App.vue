@@ -1,11 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ItemCodeInput from '@/components/ItemCodeInput.vue'
+import DiscountCalculator from '@/components/DiscountCalculator.vue'
+import CartDemo from '@/components/CartDemo.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>JS Vue Lab</h1>
+  <ItemCodeInput />
+  <DiscountCalculator />
+  <CartDemo />
 </template>
-
-<style scoped></style>
