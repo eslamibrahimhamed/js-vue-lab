@@ -2,6 +2,7 @@
 import ItemCodeInput from '@/components/ItemCodeInput.vue'
 import DiscountCalculator from '@/components/DiscountCalculator.vue'
 import CartDemo from '@/components/CartDemo.vue'
+import BigIdDemo from '@/components/BigIdDemo.vue'
 </script>
 
 <template>
@@ -9,4 +10,5 @@ import CartDemo from '@/components/CartDemo.vue'
   <ItemCodeInput />
   <DiscountCalculator />
   <CartDemo />
+  <BigIdDemo />
 </template>
