@@ -17,6 +17,12 @@ const isSelected = computed(() => {
    return selected.includes(row)
 
 })
+
+const rows = ['0 a', '1 b', '2 c', '3 d', '4 e']
+
+const slice = computed(() => {
+  return rows.slice(0, 3)
+})
 </script>
 
 <template>
@@ -32,5 +38,6 @@ const isSelected = computed(() => {
   <div>a === c: {{ a === c }}</div>
   <div>b === c: {{ b === c }}</div>
   <div>isSelected: {{ isSelected }}</div>
+  <div>slice: {{ slice }}</div>
 
 </template>
